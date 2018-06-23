@@ -1,0 +1,18 @@
+# Default Nick Configuration
+
+# Prefix of the nicked player
+nickprefix: '&7'
+
+# Language of system:
+language: 'de_DE'
+
+#MySQL enabled
+mysql: true
+
+#Settings for MySQL
+mysql:
+  host: 'localhost'
+  port: 3306
+  database: 'NickSystem'
+  username: 'username'
+  password: 'password'
