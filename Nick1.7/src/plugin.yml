@@ -1,0 +1,20 @@
+name: Nick
+version: 0.1-DEV
+author: Timeout
+description: A nickplugin for 1.7.*
+
+main: de.timeout.nick.Nick
+
+commands:
+  nick:
+    description: Nicks a Player
+  unnick:
+    description: Unnicks a Player
+  check: 
+    description: Check if a player is nicked
+    
+permissions:
+  nick.nick:
+    description: Needed for /nick
+  nick.check:
+    description: Nedded for /check
